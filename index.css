@@ -2,3 +2,20 @@ h1 {
     font-size: 40px;
     color: crimson;
 }
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: lightyellow;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 20px;
+    width: 200px;
+}
+li {
+    display: inline;
+}
+.active {
+    background-color: rgb(156, 255, 74);
+}
