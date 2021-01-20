@@ -19,9 +19,6 @@ h3 {
   list-style-type: none;
   margin: 0;
   padding: 0px;
-  background-color: black;
-  border: black;
-  border-style: solid;
   border-width: 1px;
   font-size: 20px;
   width: 230px;
@@ -29,17 +26,17 @@ h3 {
   text-align: center;
 }
 .buttons {
-  color: aliceblue;
+  color: darkslateblue;
   display: inline;
 }
 .active {
-  background-color: green;
+  background-color: lightgreen;
 }
 .profileimage {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 30%;
+  width: 250px;
 }
 .projectsimages {
   width: 500px;
