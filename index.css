@@ -1,23 +1,36 @@
+body {
+  background-image: url("./images/Background-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
 h1 {
   font-size: 40px;
   color: crimson;
 }
+h2 {
+  font-size: 25px;
+}
 .navbar {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  background-color: lightyellow;
+  padding: 0px;
+  background-color: black;
   border: black;
   border-style: solid;
   border-width: 1px;
   font-size: 20px;
-  width: 200px;
+  width: 230px;
+  height: 30px;
+  text-align: center;
 }
 .buttons {
+  color: aliceblue;
   display: inline;
 }
 .active {
-  background-color: rgb(156, 255, 74);
+  background-color: green;
 }
 .profileimage {
   width: 300px;
